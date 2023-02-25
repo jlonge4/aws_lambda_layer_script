@@ -1,4 +1,4 @@
-# AWS
+# AWS Lambda Layer Script
 
 This is a shell script for creating lambda layers in AWS Cloud9.
 
