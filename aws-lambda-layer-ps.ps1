@@ -26,7 +26,7 @@ New-Item -ItemType Directory -Force -Path ".\python"
 Copy-Item -Path ".\v-env\Lib\site-packages\*" -Destination ".\python\" -Recurse
 
 # Zip files
-Compress-Archive -Path ".\python\" -DestinationPath "requests.zip" -Force
+Compress-Archive -Path ".\python\" -DestinationPath "$lib.zip" -Force
 
 Remove-Item -Recurse -Force ".\python"   
 Remove-Item -Recurse -Force ".\v-env" 
